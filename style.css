@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/96b3fb69011173.5b71b80ece976.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#efeito-degrade {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to bottom, #011c2b72, #0000009b);
+    position: absolute;
+    z-index: 1;
+}
+#principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+}
+#area-busca {
+    display: flex;
+    width: 300px;
+    margin-top: 70px;
+}
+input {
+    height: 37px;
+    width: 260px;
+    border: 0.1px  solid  #ffffff48;
+    border-radius: 30px;
+    padding-left: 15px;
+    outline: none;
+    background-color: #ffffff44;
+    color: #ffffff;
+    backdrop-filter: blur(5px);
+    box-shadow: inset 0px 2px 4px 0px #00000034;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    margin-right: 15px;
+}
+::placeholder {
+    font-size: 14px;
+    font-weight: 300;
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+}
+button {
+    height: 37px;
+    width: 37px;
+    padding: 8px;
+    border-radius: 30px;
+    border: 0.1px solid #ffffff48;
+    outline: none;
+    background-color: #ffffff44;
+    backdrop-filter: blur(5px);
+    box-shadow: inset 0px 2px 4px 0px #00000034;
+}
+#lupa {
+    width: 18px;
+}
+#conteiner {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+#temperatura {
+    font-size: 120px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+#umidade {
+    font-size: 35px;
+    font-weight: 300;
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+}
+#infos-temperatura { 
+    width: 550px;
+}
+#localização {
+    width: 25px;
+    margin-right: 15px;
+}
+#cidade {
+    font-size: 35px;
+    font-weight: 300;
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+}
+aside {
+    display: flex;
+    align-items: center;
+}
+#status-tempo {
+    height: 100px;
+    width: 260px;
+    padding: 8px;
+    border: 0.1px solid #ffffff0c;
+    border-radius: 20px;
+    background-color:#ffffff11;
+    backdrop-filter: blur(2px);
+    box-shadow: inset 0px 2px 4px 0px #00000034;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#clima {
+    color: #ffffff;
+    font-size: 22px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+    text-transform: capitalize;
+    margin-right: 7px;
+}
+#icon {
+    margin-right: 8px;
+    width: 50px;
+}
+#farenheit {
+    color: #ffffff;
+    font-size: 50px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    margin-top: 15px;
+}
+#temperatura-farenheit {
+    height: 180px;
+    width: 260px;
+    padding: 20px;
+    border: 0.1px solid #ffffff0c;
+    border-radius: 20px;
+    background-color:#ffffff11;
+    backdrop-filter: blur(2px);
+    box-shadow: inset 0px 2px 4px 0px #00000034;
+    margin-top: 15px;
+    color: #ffffff;
+    font-size: 22px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (max-width: 890px) {
+    #conteiner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        width: 300px;
+    }
+    #temperatura {
+        font-size: 60px;
+        font-weight: 500;
+        margin-bottom: 12px;
+    }
+    #localização {
+        width: 12px;
+        margin-right: 6px;
+    }
+    #cidade {
+        font-size: 15px;
+        font-weight: 100;
+    }
+    #umidade {
+        font-size: 15px;
+        font-weight: 100;
+    }
+    #infos-temperatura { 
+        padding: 15px;
+        width: 260px;
+    }
+    #status-tempo {
+        margin-top: 20px;
+        height: 90px;
+        width: 240px;
+        border-radius:16px;
+        padding: 15px;
+    }
+    #temperatura-farenheit {
+        height: 160px;
+        width: 240px;
+        border-radius: 16px;
+    }
+}

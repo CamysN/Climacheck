@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Climacheck</title>
+</head>
+<body>
+    <div id="efeito-degrade"></div>
+    <div id="principal">
+        <div id="area-busca">
+            <input placeholder="Digite o nome da cidade">
+        <button onclick="clicarNoBotão()">
+            <img id="lupa" src="img/lupa.png" >
+        </button>
+        </div>
+        <div id="conteiner">
+            <div id="infos-temperatura">
+                <p id="temperatura">21°C</p>
+                <aside>
+                    <img id="localização" src="img/location.png"> <p id="cidade">São Paulo</p>
+                </aside>
+                <p id="umidade">Umidade: 70%</p>
+            </div>
+            <div>
+                <div id="status-tempo">
+                    <img id="icon" src="https://openweathermap.org/img/wn/04n.png"> <p id="clima">Nublado</p>
+                </div>
+                <div id="temperatura-farenheit">
+                    <p>Farenheit:</p><p id="farenheit">69°F</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
