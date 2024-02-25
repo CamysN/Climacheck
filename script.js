@@ -7,7 +7,7 @@ function colocarDadosNaTela(dados) {
     document.querySelector("#umidade").innerHTML = "Umidade: " + dados.main.humidity + "%"
     document.querySelector("#clima").innerHTML = dados.weather[0].description
     document.querySelector("#icon").src = `https://openweathermap.org/img/wn/${dados.weather[0].icon}.png`
-    document.querySelector("#farenheit").innerHTML = Math.floor(dados.main.temp)*9 /5 +32 +"°F"
+    document.querySelector("#fahrenheit").innerHTML = Math.floor(dados.main.temp)*9 /5 +32 +"°F"
 }
 async function buscarCidade(cidade) {
     const dados = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cidade}&appid=${key}&lang=pt_br&units=metric`).then( resposta => resposta.json())
