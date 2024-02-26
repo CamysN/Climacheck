@@ -193,5 +193,5 @@ aside {
         border-radius: 16px;
     }
     body {
-        background-size:cover;
+        background-repeat:no repeat;
 }
