@@ -192,4 +192,6 @@ aside {
         width: 240px;
         border-radius: 16px;
     }
+    body {
+        background-size:cover;
 }
