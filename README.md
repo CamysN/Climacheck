@@ -1,7 +1,7 @@
 <h1>Climacheck <img src="https://raw.githubusercontent.com/gist/CamysN/d3cf534a7cdb1ff68896c8c60589436e/raw/0203e477ed34f742772f3c6da9debd5b7351681d/clima.svg" width="50px"/></h1>
 <h3>Nesse projeto foi desnvolvida uma interface de previsão do tempo responsiva que pode ser usada tanto em desktop quanto em um celular, ela possui todas as informações climáticas necessárias para seu dia a dia.</h3>
 <h5><a href="https://www.figma.com/file/C08Jq0mwwg92x5x43lH19D/Untitled?type=design&node-id=38-7&mode=design&t=sCSaafAUxSxnromr-0">PrototypeFigma</h5>
-<h5><a href="">Linkedin</h5>
+<h5><a href="https://www.linkedin.com/posts/camilly-neves-239a60233_ol%C3%A1-essa-semana-desenvolvi-uma-interface-activity-7168981329055879168-Qhad?utm_source=share&utm_medium=member_desktop">Linkedin</h5>
   
 ##
   
